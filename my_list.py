@@ -181,23 +181,84 @@ print(sum(s1))'''
 #              1. That required more tham one set.
 #              2. That required only one set.
 
-s1,s2={1,2,3,4,5},{4,5,6,7,8}
-# print(s1.union(s2))
-# print(s1.intersection(s2))
-# print(s1.difference(s2))
-# print(s1.symmetric_difference(s2))
+'''s1,s2={1,2,3,4,5},{4,5,6,7,8}
+print(s1.union(s2))
+print(s1.intersection(s2))
+print(s1.difference(s2))
+print(s1.symmetric_difference(s2))
 
-# Updates methods :- 
+Updates methods :- 
 
-# s1.intersection_update(s2)   # updated given set \ exiting set.
-# print(s1)
-# print(s2)
+s1.intersection_update(s2)   # updated given set exiting set.
+print(s1)
+print(s2)
 
 s1.difference_update(s2)
 print(s1)
 print(s2)
+print(s1.intersection_update(s2))'''
+
+'''s1,s2={1,2,3,4,5,6,7,8,9},{5,6,7,8,9}
+print(s1.issuperset(s2))
+print(s2.issuperset(s1))
+print(s1.issuperset(s2))
+print(s2.issuperset(s1))
+print(s1.isdisjoint(s2))
+print(s2.isdisjoint(s1))
+s1,s2={1,2,3,4,5},{6,7,8,9,10}
+print(s1.isdisjoint(s2))
+print(s2.isdisjoint(s1))    # a single comman elements is not call disjoint but not a single elements is same in given set is called disjoints.
+
+s={1,2,3,4,5,6,8}
+s2={2,4,6,8,10,12}
+s1=s.copy()
+print(s1)
+print(id(s1),id(s))
+s.clear()
+print(s)
+del s
+print(s)
+s.add('python') #  add single element.
+print(s)
+s.update(s2) #  add multiple elements.
+print(s)
+print(s.pop())  # random element remove.
+s.remove(5) 
+print(s)    # remove targeted elements.
+s.discard('python')
+print(s)'''
 
 
+# Frozonset :- 1. Coleection of unique elements.
+#              2. Represented by {} with comma(,) seperated elements.
+#              3. Unorded collection.
+#              4. Indexing not suppoted.
+#              5. Slicing not supported.
+#              6. IMMutable in nature.
 
+'''s='python'
+l=[10,20,30,'python']
+t=(1,2,3,4,'java')
 
+fs1=frozenset(s)
+print(fs1,type(fs1))
+fs2=frozenset(l)
+print(fs2,type(fs2))
+fs3=frozenset(t)
+print(fs3,type(fs3))
+
+print(len(fs2))
+print(type(fs2))
+print(id(fs2))
+
+fs1=frozenset({1,2,3,4,5})
+fs2=frozenset({4,5,6,7,8})
+print(fs1.union(fs2))
+print(fs1.intersection(fs2))
+print(fs1.difference(fs2))
+print(fs1.symmetric_difference(fs2))
+print(fs1.isdisjoint(fs2))
+print(fs1.issuperset(fs2))
+print(fs1.issubset(fs2))
+print(fs1.copy())'''
 
