@@ -67,7 +67,7 @@ else:
 
 # Question 2 :-
 
-h=float(input("Enter Hindi marks"))
+'''h=float(input("Enter Hindi marks"))
 if(0<=h<=100):
     e=float(input("Enter English marks"))
     if(0<=e<=100):
@@ -95,6 +95,17 @@ if(0<=h<=100):
     else:
         print(f'Invalid number')
 else:
-    print(f'Invalid number')
+    print(f'Invalid number')'''
+
+
+# Question :-
+
+year = int(input("Enter year: "))
+if ((year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)):
+    print("leap year")
+else:
+    print("Not a leap year")
+
+    
                    
                 
