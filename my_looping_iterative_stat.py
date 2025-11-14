@@ -39,3 +39,73 @@ for i in s:
     else:
         c=c+1
 print(f'con is {c} vobles is {v}')'''
+
+'''s=input('enter any String : ')
+s=s.replace('','')
+if(s.isalpha()):
+    print("Alphabetes")
+else:
+    print("Not Alphabetes")'''
+
+
+# Question :- 
+
+'''s=input('enter any String : ')
+s=s.replace('','')
+v=c=0
+if(s.isalpha()):
+    s=s.lower()
+    for i in s:
+        if i in ('a','e','i','o','u'):
+            v=v+1
+        else:
+            c=c+1
+
+    print(f'Vovels :',v)
+    print(f'Conson :',c)
+else:
+    print('please enter only Alphabetes')'''
+
+# WAP to print n natural number Sum. 
+
+'''n=int(input("Enter any value : "))
+sum=0
+for i in range(1,n+1):
+    sum=sum+i
+    if(i<n):
+        print(i,end='+')
+    else:
+        print(i,end='=')
+print(sum)'''
+
+
+# WAP to print n even number.
+
+'''n=int(input("Enter any value : "))
+sum=0
+for i in range(1,n+1):
+    sum=sum+2*i
+    if(i<n):
+        print((2*i-1),end='+')
+    else:
+        print((2*i-1),end='=')
+print(sum)
+'''
+# WAP to print n even number.
+
+'''n = int(input("Enter any value: "))
+sum = 0
+
+for i in range(1, n+1):
+    odd = 2*i - 1
+    sum = sum + odd
+
+    if i < n:
+        print(odd, end=",")
+    else:
+        print(odd, end="=")
+
+print(sum)'''
+
+
+           
