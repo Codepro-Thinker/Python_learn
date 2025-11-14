@@ -42,11 +42,11 @@ elif(n==0):
 #                                 else:
 #                                     {else-block}
 
-'''n=int(input("enter the value"))
+'''n=int(input("enter the value : "))
 if(n>=1):
     print(f'Given number {n} is positive')
 elif(n==0):
-    print(f'Given number {n} is either zero')  
+    print(f'Given number {n} is zero')  
 else:
     print(f'Given n umber {n} is negative')'''
 
