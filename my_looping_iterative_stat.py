@@ -108,4 +108,35 @@ for i in range(1, n+1):
 print(sum)'''
 
 
-           
+                      # While loop  #
+                      
+# Syntex :-  initalization
+#            while condition:
+#                     {while-body executed when condition is True}   
+# Exampal of while loop :- 
+
+# count given number digit -->
+'''n=eval(input("Enter any value : "))
+td=0
+while n>0:
+    td=td+1
+    n=n//10
+print("Total digit = ",td)'''
+
+# Check Armstrong number using while loop -->
+n=eval(input("Enter any value : "))
+m=p=n
+td=sum=0
+while n>0:
+    td=td+1
+    n=n//10
+while m>0:
+    ld=m%10
+    sum=sum+ld**td
+    m=m//10
+if p==sum:
+    print(f'Given number {p} is armstrong')
+else:
+    print(f'Given number {p} is not armstrong')
+
+            
