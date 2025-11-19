@@ -124,6 +124,7 @@ while n>0:
 print("Total digit = ",td)'''
 
 # Check Armstrong number using while loop -->
+'''n=eval(input("Enter any value : "))
 n=eval(input("Enter any value : "))
 m=p=n
 td=sum=0
@@ -137,6 +138,31 @@ while m>0:
 if p==sum:
     print(f'Given number {p} is armstrong')
 else:
+    print(f'Given number {p} is not armstrong')'''
+
+# check palindrom :-
+'''s=input("Enter any name : ")
+if s==s[ : :-1]:
+    print(f'Givrn name {s} is Palindrom')
+else:
+    print("Not palindrom")    '''        
+
+# WAP Revers String/number :- 
+'''s=input("Enter any string : ")
+s1=''
+for i in s:
+    s1=i+s1
+print(f'Reversed string is :',s1) '''
+
+# WAP to Check factor of given number :-
+'''n=int(input("Enter any value : "))
+i,l=2,[]
+while i<n:
+    if n%i==0:
+        l.append(i)
+    i=i+1
+print(f'Factor of given number {n} is {l}')'''
+ # 
     print(f'Given number {p} is not armstrong')
 
             
