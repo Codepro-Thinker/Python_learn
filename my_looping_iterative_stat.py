@@ -125,6 +125,7 @@ print("Total digit = ",td)'''
 
 # Check Armstrong number using while loop -->
 '''n=eval(input("Enter any value : "))
+n=eval(input("Enter any value : "))
 m=p=n
 td=sum=0
 while n>0:
@@ -162,3 +163,6 @@ while i<n:
     i=i+1
 print(f'Factor of given number {n} is {l}')'''
  # 
+    print(f'Given number {p} is not armstrong')
+
+            
