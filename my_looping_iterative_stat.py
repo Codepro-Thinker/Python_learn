@@ -162,7 +162,3 @@ while i<n:
         l.append(i)
     i=i+1
 print(f'Factor of given number {n} is {l}')'''
- # 
-    print(f'Given number {p} is not armstrong')
-
-            
