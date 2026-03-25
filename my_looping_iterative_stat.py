@@ -161,4 +161,3 @@ while i<n:
     if n%i==0:
         l.append(i)
     i=i+1
-print(f'Factor of given number {n} is {l}')'''

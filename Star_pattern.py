@@ -49,8 +49,8 @@ for i in range(n-1,0,-1):
         print(' '*(n-i)+'* '*i)'''
 
 # Marge Left upper and lower Tiangle -->
-n=int(input("Enter Row number : "))
+'''n=int(input("Enter Row number : "))
 for i in range(1,n+1):
     print('* '*i)
 for i in range(n-1,0,-1):
-        print('* '*i)   
+        print('* '*i)  ''' 

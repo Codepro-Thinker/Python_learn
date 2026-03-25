@@ -61,6 +61,8 @@ print(l)'''
 # s='This is python'
 # print(s.replace('This','z',1))
 
+
+
 # List() :- 1. collection of element.
 #           2. indexing supported.
 #           3. slicing suppoted.
