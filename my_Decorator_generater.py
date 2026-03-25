@@ -90,3 +90,11 @@ print("hello")'''
 #                 iterable & iterater
 
 # Iterable :- Python collection is called iterable. like, {list,tuple,string,dict}
+l=[1,2,3,4,5]
+print(l)
+x=iter(l)
+print(x)      # o/p -->   <list_iterator object at 0x00000234C7750610>
+for i in x:
+    print(i)
+# for i in range(6):
+    # print(next(x))   #o/p --> StopIteration
